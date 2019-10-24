@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Edureka]">
+  <test thread-count="5" name="RegressionTest(failed)">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="com.edureka.scripts.BlogScripts">
+        <methods>
+          <include name="CloseBrowsers"/>
+          <include name="tc_01_seleniumBlog"/>
+          <include name="LaunchBrowser"/>
+        </methods>
+      </class> <!-- com.edureka.scripts.BlogScripts -->
+    </classes>
+  </test> <!-- RegressionTest(failed) -->
+</suite> <!-- Failed suite [Edureka] -->

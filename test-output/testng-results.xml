@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="4" total="7" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Edureka" duration-ms="81655" started-at="2019-10-23T16:49:34 PDT" finished-at="2019-10-23T16:50:55 PDT">
+    <groups>
+    </groups>
+    <test name="RegressionTest" duration-ms="81655" started-at="2019-10-23T16:49:34 PDT" finished-at="2019-10-23T16:50:55 PDT">
+      <class name="com.edureka.scripts.LogInScript">
+        <test-method status="PASS" signature="LaunchBrowser(java.lang.String)[pri:0, instance:com.edureka.scripts.LogInScript@76505305]" name="LaunchBrowser" is-config="true" duration-ms="11124" started-at="2019-10-23T16:49:34 PDT" finished-at="2019-10-23T16:49:45 PDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchBrowser -->
+        <test-method status="PASS" signature="tc_01_login()[pri:0, instance:com.edureka.scripts.LogInScript@76505305]" name="tc_01_login" duration-ms="4771" started-at="2019-10-23T16:49:45 PDT" finished-at="2019-10-23T16:49:50 PDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc_01_login -->
+        <test-method status="PASS" signature="CloseBrowsers()[pri:0, instance:com.edureka.scripts.LogInScript@76505305]" name="CloseBrowsers" is-config="true" duration-ms="1396" started-at="2019-10-23T16:50:54 PDT" finished-at="2019-10-23T16:50:55 PDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseBrowsers -->
+      </class> <!-- com.edureka.scripts.LogInScript -->
+      <class name="com.edureka.scripts.BlogScripts">
+        <test-method status="PASS" signature="tc_01_seleniumBlog()[pri:0, instance:com.edureka.scripts.BlogScripts@77888435]" name="tc_01_seleniumBlog" duration-ms="46151" started-at="2019-10-23T16:50:08 PDT" finished-at="2019-10-23T16:50:54 PDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc_01_seleniumBlog -->
+      </class> <!-- com.edureka.scripts.BlogScripts -->
+      <class name="com.edureka.scripts.MyClassroomScripts">
+        <test-method status="PASS" signature="tc_01_selectBlogOption()[pri:0, instance:com.edureka.scripts.MyClassroomScripts@14cd1699]" name="tc_01_selectBlogOption" duration-ms="18136" started-at="2019-10-23T16:49:50 PDT" finished-at="2019-10-23T16:50:08 PDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc_01_selectBlogOption -->
+      </class> <!-- com.edureka.scripts.MyClassroomScripts -->
+    </test> <!-- RegressionTest -->
+  </suite> <!-- Edureka -->
+</testng-results>
